@@ -7,7 +7,6 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "vite": "^4.5.5",
     "vue": "^3.5.26"
   }
 }

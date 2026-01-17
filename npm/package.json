@@ -1,39 +1,25 @@
 ﻿{
   "name": "lyb-vue-hooks",
-  "version": "1.6.30",
-  "description": "Lightweight Vue 3 composables",
+  "version": "1.0.1",
+  "description": "自用VueHooks库",
   "license": "ISC",
-  "type": "module",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.d.ts",
   "exports": {
     ".": "./index.js",
-    "./el/*": "./el/*"
+    "./el/*": "./el/*",
+    "./animation/*": "./animation/*"
   },
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "el",
-    "el/*"
-  ],
-  "sideEffects": false,
   "author": {
     "name": "lengyibai",
     "email": "1329670984@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lengyibai/lyb-js.git"
+    "url": "git+https://github.com/lengyibai/lyb-vue-hooks.git"
   },
   "keywords": [
     "vue",
     "vue3",
-    "composable",
     "hooks",
     "lyb"
-  ],
-  "peerDependencies": {
-    "vue": "^3.0.0"
-  }
+  ]
 }
