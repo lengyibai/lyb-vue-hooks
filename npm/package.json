@@ -1,8 +1,22 @@
-﻿{
+{
   "name": "lyb-vue-hooks",
-  "version": "1.0.1",
-  "description": "自用VueHooks库",
+  "version": "1.0.3",
+  "description": "Vue hooks library",
   "license": "ISC",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "peerDependencies": {
+    "vue": "^3.5.0"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "el",
+    "animation",
+    "README.md"
+  ],
   "exports": {
     ".": "./index.js",
     "./el/*": "./el/*",
