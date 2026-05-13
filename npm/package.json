@@ -1,9 +1,10 @@
 {
   "name": "lyb-vue-hooks",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Vue hooks library",
   "license": "ISC",
   "type": "module",
+  "sideEffects": false,
   "main": "./index.js",
   "module": "./index.js",
   "types": "./index.d.ts",
